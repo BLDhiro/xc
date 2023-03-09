@@ -60,7 +60,7 @@ local sections = {}
 -- Theme Variables
 --local themes = {}
 local theme = {
-    accent = Color3.fromRGB(0, 255, 0),
+    accent = Color3.fromRGB(55, 175, 225),
     lightcontrast = Color3.fromRGB(30, 30, 30),
     darkcontrast = Color3.fromRGB(20, 20, 20),
     outline = Color3.fromRGB(0, 255, 0),
@@ -1022,13 +1022,13 @@ do
         -- // Esp Preview
         do
             window.VisualPreview = {
-                Size = {X = 5, Y = 0},
+                Size = {X = 0, Y = 0},
                 Color1 = Color3.fromRGB(0, 255, 0),
                 Color2 = Color3.fromRGB(255, 0, 0),
                 HealthBarFade = 0,
                 Fading = false,
                 State = false,
-                Visible = true,
+                Visible = false,
                 Drawings = {},
                 Components = {
                     Box = {
